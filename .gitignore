@@ -1,0 +1,18 @@
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.joblib
+*.h5
+*.keras
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset is 166 MB (over GitHub's 100 MB limit); see README for download
+loan_data.csv
